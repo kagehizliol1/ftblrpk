@@ -1,6 +1,6 @@
 {
-  "main": "index.js",
+  "main": "index-6.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index-6.js"
   }
 }
