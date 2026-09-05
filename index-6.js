@@ -1,5 +1,5 @@
 // ============================================================
-//  Rywen Bot  |  Termux Edition
+//  Azura League Bot  |  Termux Edition
 //  Developed By RevanDev
 //  Database: data.json
 // ============================================================
@@ -67,7 +67,7 @@ const E = {
     nitelik: "🎖️", zaman: "⏰", kilit: "🔒", kalkan: "🛡️",
     tac: "👑", hediye: "🎁", ig: "📸", tw: "🐦",
 };
-const footer = () => `${E.cizgi} Rywen Bot | Developed By RevanDev`;
+const footer = () => `${E.cizgi} Azura League Bot | Developed By RevanDev`;
 
 // ── CV2 Yardımcıları ──────────────────────────────────────
 const cvSend   = (ch, c) => ch.send({ components: [c.toJSON()], flags: CV2 });
@@ -581,7 +581,7 @@ function cvYardimMenu() {
         ));
     return new ContainerBuilder()
         .addTextDisplayComponents(new TextDisplayBuilder().setContent(
-            `${E.yardim} **RYWEN BOT — KOMUT REHBERİ**\n\n${E.cizgi} Prefix: \`${PREFIX}\`\n${E.cizgi} Aşağıdan kategori seçerek komutları görüntüle.\n${E.nokta} Komutlar büyük/küçük harf fark etmeden çalışır.`
+            `${E.yardim} **Azura League BOT — KOMUT REHBERİ**\n\n${E.cizgi} Prefix: \`${PREFIX}\`\n${E.cizgi} Aşağıdan kategori seçerek komutları görüntüle.\n${E.nokta} Komutlar büyük/küçük harf fark etmeden çalışır.`
         ))
         .addSeparatorComponents(new SeparatorBuilder())
         .addActionRowComponents(new ActionRowBuilder().addComponents(menu))
@@ -948,7 +948,7 @@ function cvSetupPaneli(cfg) {
     const rl=arr=>arr.length?arr.map(r=>`<@&${r}>`).join(" "):"❌ *Ayarlanmadı*";
     const yn=v=>v?`${E.tik} Açık`:"❌ Kapalı";
     return new ContainerBuilder()
-        .addTextDisplayComponents(new TextDisplayBuilder().setContent(`⚙️ **RYWEN BOT — KURULUM PANELİ**`))
+        .addTextDisplayComponents(new TextDisplayBuilder().setContent(`⚙️ **Azura League BOT — KURULUM PANELİ**`))
         .addSeparatorComponents(new SeparatorBuilder())
         .addTextDisplayComponents(new TextDisplayBuilder().setContent(
             `📢 **Kanallar**\n` +
