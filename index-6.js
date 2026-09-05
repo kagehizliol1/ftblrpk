@@ -1,6 +1,6 @@
 // ============================================================
 //  Azura League Bot  |  Termux Edition
-//  Developed By RevanDev
+//  Developed By ZemaDev
 //  Database: data.json
 // ============================================================
 
@@ -67,7 +67,7 @@ const E = {
     nitelik: "🎖️", zaman: "⏰", kilit: "🔒", kalkan: "🛡️",
     tac: "👑", hediye: "🎁", ig: "📸", tw: "🐦",
 };
-const footer = () => `${E.cizgi} Azura League Bot | Developed By RevanDev`;
+const footer = () => `${E.cizgi} Azura League Bot | Developed By ZemaDev`;
 
 // ── CV2 Yardımcıları ──────────────────────────────────────
 const cvSend   = (ch, c) => ch.send({ components: [c.toJSON()], flags: CV2 });
@@ -2278,8 +2278,8 @@ client.once(Events.ClientReady,async c=>{
     for(const[,g]of c.guilds.cache)dropBaslat(g);
     client.on(Events.GuildCreate,g=>dropBaslat(g));
     // Bot durumu
-    c.user.setActivity("RevanDev Was Here",{type:0});
-    setInterval(()=>c.user.setActivity("RevanDev Was Here",{type:0}),30000);
+    c.user.setActivity("ZemaDev Was Here",{type:0});
+    setInterval(()=>c.user.setActivity("ZemaDev Was Here",{type:0}),30000);
 });
 
 const TOKEN=process.env.TOKEN;
