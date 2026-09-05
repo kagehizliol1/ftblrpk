@@ -1,9 +1,11 @@
 {
+  "name": "ftblrpk-bot",
+  "version": "1.0.0",
   "main": "index-6.js",
-    "dependencies": {
-    "discord.js": "^14.18.0"
-  },
   "scripts": {
     "start": "node index-6.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0"
   }
 }
